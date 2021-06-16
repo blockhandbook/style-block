@@ -1,0 +1,30 @@
+{
+	"apiVersion": 2,
+	"name": "style-block/static-block-with-styles",
+	"title": "Static Block with Styles",
+	"category": "style-block",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "default"
+		}
+	},
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default",
+			"isDefault": true
+		},
+		{
+			"name": "light",
+			"label": "Light"
+		},
+		{
+			"name": "dark",
+			"label": "Dark"
+		}
+	],
+	"supports": {
+		"align": [ "wide", "full" ]
+	}
+}
